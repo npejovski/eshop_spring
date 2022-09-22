@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1401a48d-0d6a-4840-9bfa-1a1eaf106cfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/order-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/OrderManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/exceptions/OrderIdDoesNotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/exceptions/OrderItemIdDoesNotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderItemId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/valueObjects/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/valueObjects/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/forms/OrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/forms/OrderItemForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/impl/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/xport/client/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/xport/client/form/UpdateQuantityForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/OrderManagementApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/service/OrderServiceImplTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/ProductCatalogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/config/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Manufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/ProductPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/valueobjects/ProductsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/valueobjects/Quantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/CategoryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/ProductPriceForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/xports/rest/ProductResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-catalog/src/test/java/mk/ukim/finki/emt/productcatalog/ProductCatalogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/financial/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/financial/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/test/java/mk/ukim/finki/mk/sharedkernel/SharedKernelApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/product-catalog/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2E2Rkqin1tbjIyqosxZn8omwBeQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Spring/yet-to-be-named&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9c00a63431b404cc7aac19fc6a07a2a9&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.OrderServiceImplTests">
+    <configuration name="OrderManagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mk.ukim.finki.emt.ordermanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mk.ukim.finki.emt.ordermanagement" />
+      <option name="MAIN_CLASS_NAME" value="mk.ukim.finki.emt.ordermanagement.OrderManagementApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mk.ukim.finki.emt.ordermanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mk.ukim.finki.emt.ordermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="mk.ukim.finki.emt.ordermanagement.service.OrderServiceImplTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTests.TestPlaceOrderWithRealData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mk.ukim.finki.emt.ordermanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mk.ukim.finki.emt.ordermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="mk.ukim.finki.emt.ordermanagement.service.OrderServiceImplTests" />
+      <option name="METHOD_NAME" value="TestPlaceOrderWithRealData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.ordermanagement.OrderManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-catalog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.productcatalog.ProductCatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedKernelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shared-kernel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.mk.sharedkernel.SharedKernelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderServiceImplTests" />
+        <item itemvalue="JUnit.OrderManagementApplicationTests" />
+        <item itemvalue="JUnit.OrderServiceImplTests.TestPlaceOrderWithRealData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1401a48d-0d6a-4840-9bfa-1a1eaf106cfb" name="Changes" comment="" />
+      <created>1661791842895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661791842895</updated>
+      <workItem from="1661791844955" duration="1947000" />
+      <workItem from="1661821276331" duration="1663000" />
+      <workItem from="1662251207743" duration="5967000" />
+      <workItem from="1662468390211" duration="10335000" />
+      <workItem from="1662502879607" duration="4611000" />
+      <workItem from="1662658519433" duration="20000" />
+      <workItem from="1662807280389" duration="11960000" />
+      <workItem from="1663180330992" duration="3404000" />
+      <workItem from="1663198206154" duration="4137000" />
+      <workItem from="1663282904464" duration="15044000" />
+      <workItem from="1663464604787" duration="518000" />
+      <workItem from="1663465140391" duration="1705000" />
+      <workItem from="1663514917419" duration="12293000" />
+      <workItem from="1663536109750" duration="3297000" />
+      <workItem from="1663601776469" duration="2437000" />
+      <workItem from="1663875875322" duration="411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/service/OrderServiceImplTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/service/OrderServiceImplTests.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/service/OrderServiceImplTests.java</url>
+          <line>14</line>
+          <properties field="orderService" class="mk.ukim.finki.emt.ordermanagement.service.OrderServiceImplTests" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
