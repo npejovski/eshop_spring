@@ -5,73 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1401a48d-0d6a-4840-9bfa-1a1eaf106cfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order-management/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/OrderManagementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/exceptions/OrderIdDoesNotExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/exceptions/OrderItemIdDoesNotExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderItemId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/model/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/valueObjects/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/domain/valueObjects/ProductId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/forms/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/forms/OrderItemForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/impl/OrderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/xport/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/emt/ordermanagement/service/xport/client/form/UpdateQuantityForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/OrderManagementApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-management/src/test/java/mk/ukim/finki/emt/ordermanagement/service/OrderServiceImplTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/ProductCatalogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/config/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/ProductId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/models/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/valueobjects/ProductsCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/domain/valueobjects/Quantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/CategoryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/ProductForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/forms/ProductPriceForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/services/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/java/mk/ukim/finki/emt/productcatalog/xports/rest/ProductResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-catalog/src/test/java/mk/ukim/finki/emt/productcatalog/ProductCatalogApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/base/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/financial/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/sharedkernel/domain/financial/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared-kernel/src/test/java/mk/ukim/finki/mk/sharedkernel/SharedKernelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +162,8 @@
       <workItem from="1663514917419" duration="12293000" />
       <workItem from="1663536109750" duration="3297000" />
       <workItem from="1663601776469" duration="2437000" />
-      <workItem from="1663875875322" duration="411000" />
+      <workItem from="1663875875322" duration="1068000" />
+      <workItem from="1665176605531" duration="4636000" />
     </task>
     <servers />
   </component>
